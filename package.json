@@ -1,0 +1,23 @@
+{
+  "name": "ng-apply",
+  "version": "0.0.0",
+  "description": "angular safe apply directive",
+  "main": "ng-apply.js",
+  "repository": "attrs/ng-apply",
+  "author": "joje <joje.attrs@gmail.com>",
+  "homepage": "https://github.com/attrs/ng-apply",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "directive"
+  ],
+  "files": [
+    "*.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "angular": "1.x"
+  }
+}
