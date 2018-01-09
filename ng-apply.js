@@ -5,6 +5,8 @@ function isElement(node) {
 module.exports = angular.module('ngApply', [])
 .service('safeApply', ['$rootScope', function($rootScope) {
   return function(scope, done) {
+    done = done || function() {};
+    
     if( typeof scope == 'function' ) {
       done = scope;
       scope = $rootScope;
